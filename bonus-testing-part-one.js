@@ -44,8 +44,8 @@ expect(
    Hint: read the Math.random description on MDN.
   */
 
-  var favoriteAnimals = ['elephants', 'penguins', 'eagles', 'camels'];
-  var nextAnimal;
+var favoriteAnimals = ['elephants', 'penguins', 'eagles', 'camels'];
+var nextAnimal;
 
   /* TODO:
       Assign one of your favorite animals to nextAnimal using Math.random()
