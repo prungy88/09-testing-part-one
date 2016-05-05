@@ -1,4 +1,4 @@
-![CF](https://i.imgur.com/7v5ASc8.png)  Lab 09: Testing Part One
+![CF](https://i.imgur.com/7v5ASc8.png)  Bonus! 09: Testing Part One
 =======
 [![Build Status](https://travis-ci.org/codefellows-seattle-301d4/09-testing-part-one.svg?branch=master)](https://travis-ci.org/codefellows-seattle-301d4/09-testing-part-one)
 ## Writing tests and solving problems!
