@@ -2,5 +2,5 @@
 =======
 ## Writing tests and solving problems!
 - By yourself or with a partner, work through the JS file and follow the instructions.
-  Submit correct code with all tests passing to receive 5 extra bonus points.
+  Submit correct code (and linted!) with all tests passing to receive 5 extra bonus points.
 
