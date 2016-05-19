@@ -39,21 +39,22 @@ expect(
   ------------------------- Favorite Animals --------------------------------
   ===========================================================================
    The zoo is closing in 20 minutes. You still haven't seen your four favorite
-   animals. You only have time for one. Use Math.random() to pick which animal
-   to see next.
-   Hint: read the Math.random description on MDN.
+   animals. You only have time for one. How do you choose just one?!
   */
 
 var favoriteAnimals = ['elephants', 'penguins', 'eagles', 'camels'];
 var nextAnimal;
 
   /* TODO:
-      Assign one of your favorite animals to nextAnimal using Math.random()
+      Assign one of your favorite animals dynamically by chance to the 
+      nextAnimal variable   :-)
       Your code begins on the next line: */
 
   /* TODO:
       Write a test! Use the `expect()` function we defined earlier to ensure
       that an element in the favoriteAnimals array was assigned to nextAnimal.
+      No hard-coded results allowed! (ex: seeing if nextAnimal is equal to 
+      just 'elephant').
       Remember to: pass in your expression, and write a failure and a success
       message. Your test begins on the next line: */
 
