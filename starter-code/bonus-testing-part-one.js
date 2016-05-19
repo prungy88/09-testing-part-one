@@ -25,7 +25,7 @@ function expect(expression, failureMessage, successMessage) {
     to see what happens when the test fails, then change `ricksFaveAnimal`
     to get the test to pass!
 */
-var ricksFaveAnimal = 'heyena';
+var ricksFaveAnimal = 'hyena';
 
 expect(
   ricksFaveAnimal === 'penguin',
