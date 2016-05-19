@@ -54,7 +54,7 @@ var nextAnimal;
       Write a test! Use the `expect()` function we defined earlier to ensure
       that an element in the favoriteAnimals array was assigned to nextAnimal.
       No hard-coded results allowed! (ex: seeing if nextAnimal is equal to 
-      just 'elephant').
+      just 'penguin').
       Remember to: pass in your expression, and write a failure and a success
       message. Your test begins on the next line: */
 
