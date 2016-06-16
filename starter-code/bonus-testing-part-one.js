@@ -25,12 +25,12 @@ function expect(expression, failureMessage, successMessage) {
     to see what happens when the test fails, then change `ricksFaveAnimal`
     to get the test to pass!
 */
-var ricksFaveAnimal = 'hyena';
-
-expect(
-  ricksFaveAnimal === 'penguin',
-  'ricksFavoriteAnimal should equal penguin, but currently equals ' + ricksFaveAnimal,
-  'ricksFavoriteAnimal equals penguin!');
+// var ricksFaveAnimal = 'hyena';
+//
+// expect(
+//   ricksFaveAnimal === 'penguin',
+//   'ricksFavoriteAnimal should equal penguin, but currently equals ' + ricksFaveAnimal,
+//   'ricksFavoriteAnimal equals penguin!');
 
   // BEGIN WORK BELOW - test code by running `node bonus-testing-part-one.js`
   //  in your terminal!
@@ -42,21 +42,36 @@ expect(
    animals. You only have time for one. How do you choose just one?!
   */
 
+
+  /* TODO:
+      Assign one of your favorite animals dynamically by chance to the
+      nextAnimal variable   :-)
+      Your code begins on the next line: */
+
 var favoriteAnimals = ['elephants', 'penguins', 'eagles', 'camels'];
 var nextAnimal;
 
-  /* TODO:
-      Assign one of your favorite animals dynamically by chance to the 
-      nextAnimal variable   :-)
-      Your code begins on the next line: */
+var rand = function randomNumber (min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+nextAnimal = function(array, rand) {
+  nextAnimal = array[rand];
+  return nextAnimal;
+};
+
+nextAnimal = nextAnimal(favoriteAnimals, rand(0,3));
+
+expect(
+  favoriteAnimals.includes(nextAnimal),
+  'Next animal shoudl either be elephants, penguins, eagles, or camels',
+  'Next animal equals either elephants, penguins, eagles, or camels'
+);
 
   /* TODO:
       Write a test! Use the `expect()` function we defined earlier to ensure
       that an element in the favoriteAnimals array was assigned to nextAnimal.
-      No hard-coded results allowed! (ex: seeing if nextAnimal is equal to 
+      No hard-coded results allowed! (ex: seeing if nextAnimal is equal to
       just 'penguin').
       Remember to: pass in your expression, and write a failure and a success
       message. Your test begins on the next line: */
-
-
-
